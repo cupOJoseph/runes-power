@@ -1,0 +1,14 @@
+{
+  "name": "runes",
+  "version": "1.0.0",
+  "description": "win runes",
+  "main": "index.js",
+  "scripts": {
+    "start": "forge test"
+  },
+  "author": "cupojoseph",
+  "license": "MIT",
+  "dependencies": {
+    "keccak256": "^1.0.6"
+  }
+}
