@@ -23,3 +23,5 @@ npm start
 Rune of Power is awarded to the one who can find a number that hashes to a higher value than the previous owner. The hash also includes the sender's address and the previous number. Those have been manually put into src/Contract.t.sol.
 
 Instead of using a big for loop I thought it might be faster or interesting to test the limits of the foundry fuzzing tests. The test file will return false when a larger number result is found from the hashing.
+
+To increase the number of fuzzing happening, change the foundry.toml.
